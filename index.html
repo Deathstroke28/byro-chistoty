@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Бюро чистоты - профессиональная клининговая компания. Качественная уборка помещений любой сложности.">
+    <title>Бюро чистоты - Профессиональная клининговая компания</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="images/logo.png" alt="Бюро чистоты" class="logo-img">
+                <span class="logo-text">Бюро чистоты</span>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Услуги</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#gallery" class="nav__link">Галерея</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Профессиональная уборка помещений</h1>
+                <p class="hero__description">Мы делаем ваше пространство чистым, безопасным и комфортным</p>
+                <div class="hero__buttons">
+                    <a href="#contacts" class="button button--primary">Заказать уборку</a>
+                    <a href="#services" class="button button--secondary">Наши услуги</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="hero__bg"></div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Прокрутите вниз</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Наши услуги</h2>
+                <p class="section__subtitle">Полный спектр клининговых услуг для любого типа помещений</p>
+            </div>
+            <div class="services__grid">
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="9" y1="3" x2="9" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Офисная уборка</h3>
+                    <p class="service__description">Регулярная и генеральная уборка офисных помещений, включая рабочие места, конференц-залы и общие зоны</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 7h-9M14 17H5M15 3l4 4-4 4M9 21l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Уборка после ремонта</h3>
+                    <p class="service__description">Тщательная уборка строительного мусора, пыли и остатков строительных материалов</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2"/>
+                            <path d="M4 9h16M9 4v16"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Ковровая чистка</h3>
+                    <p class="service__description">Профессиональная химчистка ковров, ковролина и мягкой мебели с применением специального оборудования</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="18" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Мойка окон</h3>
+                    <p class="service__description">Чистка окон и витрин на любой высоте с применением профессиональных средств и оборудования</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Уборка квартир</h3>
+                    <p class="service__description">Комплексная уборка жилых помещений, включая все комнаты, кухню, ванную и санузел</p>
+                </div>
+                <div class="service__card">
+                    <div class="service__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3 class="service__title">Регулярное обслуживание</h3>
+                    <p class="service__description">Ежедневное, еженедельное и ежемесячное обслуживание помещений по установленному графику</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about__container">
+                <div class="about__content">
+                    <h2 class="section__title">О компании</h2>
+                    <p class="about__text">
+                        <strong>Бюро чистоты</strong> — это команда профессионалов с многолетним опытом работы 
+                        в сфере клининговых услуг. Мы предоставляем качественные услуги по уборке помещений 
+                        любого типа и назначения.
+                    </p>
+                    <p class="about__text">
+                        Наша миссия — создавать чистоту и комфорт для наших клиентов, используя современное 
+                        оборудование, безопасные моющие средства и индивидуальный подход к каждому объекту. 
+                        Мы гарантируем высокое качество работ и соблюдение всех санитарных норм.
+                    </p>
+                    <p class="about__text">
+                        Каждый наш сотрудник проходит специальное обучение и имеет необходимую квалификацию 
+                        для выполнения работ любого уровня сложности. Мы используем только сертифицированные 
+                        чистящие средства, безопасные для здоровья людей и окружающей среды.
+                    </p>
+                    <div class="about__stats">
+                        <div class="stat__item">
+                            <h3 class="stat__number">500+</h3>
+                            <p class="stat__label">Довольных клиентов</p>
+                        </div>
+                        <div class="stat__item">
+                            <h3 class="stat__number">5</h3>
+                            <p class="stat__label">Лет на рынке</p>
+                        </div>
+                        <div class="stat__item">
+                            <h3 class="stat__number">24/7</h3>
+                            <p class="stat__label">Доступность</p>
+                        </div>
+                        <div class="stat__item">
+                            <h3 class="stat__number">100+</h3>
+                            <p class="stat__label">Сотрудников</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Галерея работ</h2>
+                <p class="section__subtitle">Примеры наших выполненных работ</p>
+            </div>
+            <div class="gallery__grid">
+                <!-- Замените эти пути на ваши фотографии работ -->
+                <div class="gallery__item">
+                    <img src="images/works/work-1.jpg" alt="Работа 1 - Офисная уборка" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Офисная уборка</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/works/work-2.jpg" alt="Работа 2 - Уборка после ремонта" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Уборка после ремонта</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/works/work-3.jpg" alt="Работа 3 - Ковровая чистка" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Ковровая чистка</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/works/work-4.jpg" alt="Работа 4 - Мойка окон" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Мойка окон</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/works/work-5.jpg" alt="Работа 5 - Уборка квартир" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Уборка квартир</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/works/work-6.jpg" alt="Работа 6 - Комплексная уборка" class="gallery__img">
+                    <div class="gallery__overlay">
+                        <span class="gallery__title">Комплексная уборка</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts section" id="contacts">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Свяжитесь с нами</h2>
+                <p class="section__subtitle">Оставьте заявку, и мы свяжемся с вами в ближайшее время</p>
+            </div>
+            <div class="contacts__container">
+                <div class="contacts__info">
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Телефон</h3>
+                            <p class="contact__text">
+                                <a href="tel:+7XXXXXXXXXX" style="color: inherit; text-decoration: none;">+7 (XXX) XXX-XX-XX</a>
+                            </p>
+                            <p class="contact__text">
+                                <a href="tel:+7XXXXXXXXXX" style="color: inherit; text-decoration: none;">+7 (XXX) XXX-XX-XX</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Email</h3>
+                            <p class="contact__text">
+                                <a href="mailto:info@bureau-chistoty.ru" style="color: inherit; text-decoration: none;">info@bureau-chistoty.ru</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Адрес</h3>
+                            <p class="contact__text">Вставьте ваш адрес офиса или главного офиса компании</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div class="contact__content">
+                            <h3 class="contact__title">Режим работы</h3>
+                            <p class="contact__text">Понедельник - Воскресенье: 8:00 - 20:00</p>
+                            <p class="contact__text">Выезд по срочным заявкам: круглосуточно</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contact-form">
+                    <div class="form__group">
+                        <input type="text" class="form__input" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="tel" class="form__input" name="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" name="email" placeholder="Email (необязательно)">
+                    </div>
+                    <div class="form__group">
+                        <textarea class="form__input form__textarea" name="message" rows="5" placeholder="Опишите, какая услуга вас интересует" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--primary button--full">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__section">
+                        <div class="footer__logo">
+                            <img src="images/logo.png" alt="Бюро чистоты" class="logo-img">
+                            <span class="logo-text">Бюро чистоты</span>
+                        </div>
+                        <p class="footer__text">Профессиональная клининговая компания. Мы создаем чистоту и комфорт для вас и вашего бизнеса.</p>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__title">Быстрые ссылки</h4>
+                        <ul class="footer__links">
+                            <li><a href="#home" class="footer__link">Главная</a></li>
+                            <li><a href="#services" class="footer__link">Услуги</a></li>
+                            <li><a href="#about" class="footer__link">О нас</a></li>
+                            <li><a href="#gallery" class="footer__link">Галерея</a></li>
+                            <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__contacts">
+                            <li>+7 (914) 384 70 28</li>
+                            <li>info@bureau-chistoty.ru</li>
+                            <li>Пн-Вс: 8:00 - 20:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>&copy; 2025 Бюро чистоты. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
